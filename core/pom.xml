@@ -12,7 +12,7 @@
   </parent>
   <inceptionYear>2011</inceptionYear>
   <description>
-			Submodule for modules containing functionality used across the OpenIMAJ libraries.
+    Submodule for modules containing functionality used across the OpenIMAJ libraries.
   </description>
   <modules>
     <module>core</module>
@@ -25,4 +25,11 @@
     <module>core-citation</module>
     <module>core-aop-support</module>
   </modules>
+  <repositories>
+    <repository>
+      <id>gael-systems</id>
+      <name>gael-systems</name>
+      <url>https://repository.gael-systems.com/repository/public/</url>
+    </repository>
+  </repositories>
 </project>

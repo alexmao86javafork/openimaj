@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/archetypes/openimaj-quickstart-archetype/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/archetypes/openimaj-subproject-archetype/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="touchtable" />
+        <module name="OCRTools" />
+        <module name="image-local-features" />
+        <module name="openimaj-subproject-archetype" />
+        <module name="ClusterQuantiserTool" />
+        <module name="data-scraping" />
+        <module name="geocoder" />
+        <module name="ACMMM-Presentation" />
+        <module name="core-feature" />
+        <module name="twitter" />
+        <module name="core-video-capture" />
+        <module name="klt-tracker" />
+        <module name="image-indexing-retrieval" />
+        <module name="TwitterPreprocessingTool" />
+        <module name="core-hadoop" />
+        <module name="vector-image" />
+        <module name="MatrixLib" />
+        <module name="gps-reader" />
+        <module name="readability4j" />
+        <module name="animation" />
+        <module name="core-web" />
+        <module name="SimilarityMatrixTool" />
+        <module name="examples" />
+        <module name="processing" />
+        <module name="SequenceFileIndexer" />
+        <module name="audio-processing" />
+        <module name="SimpleOCR" />
+        <module name="multiview" />
+        <module name="demos" />
+        <module name="HadoopImageIndexer" />
+        <module name="HadoopLocalFeaturesTool" />
+        <module name="serial-driver" />
+        <module name="SequenceFileMerger" />
+        <module name="GlobalFeaturesTool" />
+        <module name="ImageCollectionTool" />
+        <module name="RedditHarvester" />
+        <module name="core-rdf" />
+        <module name="IREval" />
+        <module name="video-processing" />
+        <module name="HadoopDownloader" />
+        <module name="kinect" />
+        <module name="webpage-analysis" />
+        <module name="openimaj-quickstart-archetype" />
+        <module name="SequenceFileTool" />
+        <module name="HadoopClusterQuantiserTool" />
+        <module name="core-image" />
+        <module name="FaceTools" />
+        <module name="core-aop-support" />
+        <module name="core-video" />
+        <module name="HadoopTwitterPreprocessingTool" />
+        <module name="core-storm-tool" />
+        <module name="WebTools" />
+        <module name="nmea-parser" />
+        <module name="gstreamer-video" />
+        <module name="ReferencesTool" />
+        <module name="nlp" />
+        <module name="picslurper" />
+        <module name="FeatureVisualisation" />
+        <module name="core-experiment" />
+        <module name="image-annotation" />
+        <module name="faces" />
+        <module name="ImprovedArgs4J" />
+        <module name="camera-calibration" />
+        <module name="JTransforms" />
+        <module name="object-detection" />
+        <module name="sioc" />
+        <module name="CampusView" />
+        <module name="LocalFeaturesTool" />
+        <module name="CBIRTools" />
+        <module name="core-gpgpu" />
+        <module name="core-audio" />
+        <module name="core-tool" />
+        <module name="common-stream" />
+        <module name="image-processing" />
+        <module name="core" />
+        <module name="compass" />
+        <module name="image-feature-extraction" />
+        <module name="core-storm" />
+        <module name="FaceTracker" />
+        <module name="slideshow" />
+        <module name="nearest-neighbour" />
+        <module name="StormTwitterPreprocessingTool" />
+        <module name="HadoopGlobalFeaturesTool" />
+        <module name="turntable" />
+        <module name="HadoopEXIFTool" />
+        <module name="core-math" />
+        <module name="machine-learning" />
+        <module name="HadoopFastKMeans" />
+        <module name="core-citation" />
+        <module name="SimpleMosaic" />
+        <module name="CityLandscapeClassifier" />
+        <module name="HadoopTwitterTokenTool" />
+        <module name="visualisations" />
+        <module name="sandbox" />
+        <module name="processing-core" />
+        <module name="core-hadoop-tool" />
+        <module name="xuggle-video" />
+        <module name="tld" />
+        <module name="clustering" />
+        <module name="test-resources" />
+      </profile>
+      <profile name="Annotation profile for OpenIMAJ master project" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="org.openimaj.citation.annotation.processor.ReferenceProcessor" />
+        <module name="tutorial-pdf" />
+        <module name="tutorial-html" />
+        <module name="tutorial-code" />
+        <module name="tutorial-content" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

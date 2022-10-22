@@ -12,16 +12,18 @@
   <inceptionYear>2011</inceptionYear>
   <description>Cross-platform video capture interface using a lightweight native interface. Supports 32 and 64 bit JVMs under Linux, OSX and Windows.</description>
   <dependencies>
+
     <dependency>
       <groupId>org.openimaj</groupId>
       <artifactId>core-video</artifactId>
       <version>1.4-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
+
     <dependency>
       <groupId>com.nativelibs4java</groupId>
       <artifactId>bridj</artifactId>
-      <version>0.7-20140918-3</version>
+      <version>0.7.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
